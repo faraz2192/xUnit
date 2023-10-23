@@ -233,5 +233,39 @@ namespace TrialApplication.Test
             userRepositoryMock.Verify(x => x.DeregisterUser("username"), Times.Never());
         }
 
+        // TEST CASES FOR LOGOUT METHOD
+        
+        [Fact]
+        public void Logout_ValidUsername_ReturnsTrue()
+        {
+            // Arrange
+            var userRepositoryMock = new Mock<IUserRepository>();
+            userRepositoryMock.Setup(x => x.UserExists("username")).Returns(true);
+
+            var userManager = new UserManager(userRepositoryMock.Object);
+
+            // Act
+            var result = userManager.Logout("username");
+
+            // Assert
+            Assert.True(result);
+        }
+        
+        // Invalid User 
+        [Fact]
+        public void Logout_InvalidUsername_ReturnsFalse()
+        {
+            // Arrange
+            var userRepositoryMock = new Mock<IUserRepository>();
+            userRepositoryMock.Setup(x => x.UserExists("nonexistentuser")).Returns(false);
+
+            var userManager = new UserManager(userRepositoryMock.Object);
+
+            // Act
+            var result = userManager.Logout("nonexistentuser");
+
+            // Assert
+            Assert.False(result);
+        }
     }
 }

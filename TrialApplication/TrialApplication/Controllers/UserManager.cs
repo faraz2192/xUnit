@@ -70,5 +70,16 @@
 
             return false;
         }
+
+        public bool Logout(string username)
+        {
+            if (string.IsNullOrEmpty(username))
+                return false;
+            if (!userRepository.UserExists(username))
+                return false;
+
+
+            return true;
+        }
     }
 }
