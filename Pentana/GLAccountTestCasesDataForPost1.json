@@ -1,0 +1,26 @@
+[
+  {
+    "GLAccountTestCases": {
+      "InputData": 
+      [
+        {
+        "accountNumber": "RA-NCR-AV01-ADM01-ACCES-COMER-KI-9078",
+        "baseAccountId": 75,
+        "segmentChainNumber": 3
+        }
+      ],
+      "ExpectedOutput": {
+        "success": false
+      },
+      "Assertions": [
+        {
+          "TestCaseId": "PGL-884",
+          "Type": "Equal",
+          "Property": "success",
+          "PropertyPath": "success",
+          "ExpectedValue": false
+        }
+      ]
+    }
+  }
+]

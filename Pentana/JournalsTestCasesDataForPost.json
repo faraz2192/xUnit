@@ -1,0 +1,63 @@
+[
+    {
+      "JournalsTestCases": {
+        "InputData": {
+            "page": 1,
+            "limit": 20,
+            "orderBy": [],
+            "query": [
+              {
+                "searchField": [
+                  "JournalId",
+                  "CreatedBy",
+                  "JournalDescription",
+                  "Notes",
+                  "ReferenceNumber",
+                  "ControlNumber",
+                  "GLacctFull",
+                  "InternalDocumentIdent",
+                  "ExternalDocumentIdent",
+                  "CustomerNumber",
+                  "CustomerName",
+                  "VendorNumber",
+                  "VendorName",
+                  "EmployeeNumber",
+                  "EmployeeName",
+                  "SalesmanNumber",
+                  "SalesmanName",
+                  "StockNumber",
+                  "ClaimNumber",
+                  "SubletNumber",
+                  "MiscellaneousNumber",
+                  "Vin",
+                  "SerialNumber",
+                  "Department",
+                  "Make",
+                  "Rego",
+                  "TransactionNotes",
+                  "TaxInvoiceNumber"
+                ],
+                "searchValue": "Closing some journal entries for end of year",
+                "operator": "CT"
+              }
+            ],
+            "filter": {
+              "filters": []
+            }
+          },
+        "ExpectedOutput": {
+          "success": true
+        },
+        "Assertions": [
+          {
+            "Type": "Equal",
+            "Property": "success",
+            "PropertyPath": "success",
+            "ExpectedValue": true,
+            "TestCaseId": "PGL-1136"
+          }
+        ]
+      }
+    }
+  ]
+  

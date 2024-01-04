@@ -1,0 +1,24 @@
+[
+    {
+      "SegmentsTestCases": {
+        "InputData": {
+          "segmentName": "",
+          "segmentCode": "HON4",
+          "segmentGroupId": 160
+        },
+        "ExpectedOutput": {
+          "success": true
+        },
+        "Assertions": [
+          {
+            "TestCaseId": "PGL-640",
+            "Type": "Equal",
+            "Property": "success",
+            "PropertyPath": "success",
+            "ExpectedValue": false
+          }
+        ]
+      }
+    }
+  ]
+  

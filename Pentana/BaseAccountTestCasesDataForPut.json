@@ -1,0 +1,35 @@
+[
+  {
+    "baseAccountId": 414,
+    "BaseAccountTestCases": {
+      "InputData": {
+        "id": 0,
+        "isCountAccount": true,
+        "isHoldOn": true,
+        "holdOnRemoveDate": null,
+        "isControlAccount": true,
+        "controlTypeId": null,
+        "isAllowedPostingManual": true,
+        "isConfidentialAccount": true,
+        "isDeactive": true,
+        "deactiveAfterDate": "2024-09-09T05:08:40.148Z",
+        "govermentTaxCode": "GT1",
+        "isRevaluation": false,
+        "revaluationTypeId": null
+      },
+      "ExpectedOutput": {
+        "success": true
+      },
+      "Assertions": [
+        {
+          "TestCaseId": "PGL-492",
+          "Type": "Equal",
+          "Property": "success",
+          "PropertyPath": "success",
+          "ExpectedValue": false
+        }
+      ]
+    }
+  }
+]
+

@@ -1,0 +1,25 @@
+[
+  {
+    "BaseAccountTestCases": {
+      "InputData": {
+        "searchValue": "1120",
+        "PageNumber": 1,
+        "PageSize": 10
+      },
+      "ExpectedOutput": {
+        "success": true,
+        "accountName": "Inventory",
+        "accountNumber": 1120
+      },
+      "Assertions": [
+        {
+          "TestCaseId": "PGL-374",
+          "Type": "Equal",
+          "Property": "success",
+          "PropertyPath": "success",
+          "ExpectedValue": true
+        }
+      ]
+    }
+  }
+]

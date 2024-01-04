@@ -1,0 +1,27 @@
+[
+    {
+      "GLAccountTestCases": {
+        "InputData": {
+          "page": 1,
+          "limit": 25,
+          "orderBy": [
+            "Order|DESC"
+          ]
+        },
+        "ExpectedOutput": {
+          "success": true,
+          "data": true
+        },
+        "Assertions": [
+          {
+            "TestCaseId": "PGL-742",
+            "Type": "Equal",
+            "Property": "success",
+            "PropertyPath": "success",
+            "ExpectedValue": true
+          }
+        ]
+      }
+    }
+  ]
+  

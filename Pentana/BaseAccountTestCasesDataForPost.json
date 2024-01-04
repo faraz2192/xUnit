@@ -1,0 +1,38 @@
+[
+    {
+      "BaseAccountTestCases": {
+        "InputData": {
+            "accountTypeId": 0,
+            "accountNumber": 1200,
+            "accountName": "Accounts",
+            "cosAccountNumber": null,
+            "inventoryAccountId": null,
+            "isCountAccount": false,
+            "isHoldOn": false,
+            "holdOnRemoveDate": null,
+            "isControlAccount": false,
+            "controlTypeId": null,
+            "isAllowedPostingManual": false,
+            "isConfidentialAccount": false,
+            "isDeactive": false,
+            "deactiveAfterDate": null,
+            "govermentTaxCode": null,
+            "isRevaluation": false,
+            "revaluationTypeId": null
+          },
+        "ExpectedOutput": {
+          "success": false
+        },
+        "Assertions": [
+          {
+            "TestCaseId": "PGL-381",
+            "Type": "Equal",
+            "Property": "success",
+            "PropertyPath": "success",
+            "ExpectedValue": false
+          }
+        ]
+      }
+    }
+  ]
+  

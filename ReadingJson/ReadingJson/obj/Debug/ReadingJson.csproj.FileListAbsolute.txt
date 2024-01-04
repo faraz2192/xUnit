@@ -1,0 +1,10 @@
+D:\Dotnet\XUnit\ReadingJson\ReadingJson\bin\Debug\ReadingJson.exe.config
+D:\Dotnet\XUnit\ReadingJson\ReadingJson\bin\Debug\ReadingJson.exe
+D:\Dotnet\XUnit\ReadingJson\ReadingJson\bin\Debug\ReadingJson.pdb
+D:\Dotnet\XUnit\ReadingJson\ReadingJson\bin\Debug\Newtonsoft.Json.dll
+D:\Dotnet\XUnit\ReadingJson\ReadingJson\bin\Debug\Newtonsoft.Json.xml
+D:\Dotnet\XUnit\ReadingJson\ReadingJson\obj\Debug\ReadingJson.csproj.AssemblyReference.cache
+D:\Dotnet\XUnit\ReadingJson\ReadingJson\obj\Debug\ReadingJson.csproj.CoreCompileInputs.cache
+D:\Dotnet\XUnit\ReadingJson\ReadingJson\obj\Debug\ReadingJson.csproj.CopyComplete
+D:\Dotnet\XUnit\ReadingJson\ReadingJson\obj\Debug\ReadingJson.exe
+D:\Dotnet\XUnit\ReadingJson\ReadingJson\obj\Debug\ReadingJson.pdb
